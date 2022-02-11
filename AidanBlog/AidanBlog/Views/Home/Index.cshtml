@@ -1,8 +1,19 @@
-﻿@{
+﻿@using AidanBlog.Models.HomeViewModel
+@model HomeViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Aidan's cool blog</h1>
+    @foreach (var post in Model.Posts)
+    {
+        <p>@post.Title - @post.Name</p>
+        <p></p>
+        <p>@post.Body</p>
+        <p></p>
+        <p></p>
+    } 
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>

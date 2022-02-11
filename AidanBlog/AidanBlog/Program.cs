@@ -1,8 +1,13 @@
-using AidanBlog.Data;
+﻿using AidanBlog.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AidanBlogContext>(options =>
+
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AidanBlogContext")));
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");

@@ -9,5 +9,7 @@ namespace AidanBlog.Data
             : base(options)
         {
         }
+
+        public object Post { get; internal set; }
     }
 }

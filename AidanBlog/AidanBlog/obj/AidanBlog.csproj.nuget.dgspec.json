@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\MvcMovie\\AidanBlog\\AidanBlog\\AidanBlog.csproj": {}
+    "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\AidanBlog\\AidanBlog\\AidanBlog\\AidanBlog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\MvcMovie\\AidanBlog\\AidanBlog\\AidanBlog.csproj": {
+    "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\AidanBlog\\AidanBlog\\AidanBlog\\AidanBlog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\MvcMovie\\AidanBlog\\AidanBlog\\AidanBlog.csproj",
+        "projectUniqueName": "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\AidanBlog\\AidanBlog\\AidanBlog\\AidanBlog.csproj",
         "projectName": "AidanBlog",
-        "projectPath": "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\MvcMovie\\AidanBlog\\AidanBlog\\AidanBlog.csproj",
+        "projectPath": "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\AidanBlog\\AidanBlog\\AidanBlog\\AidanBlog.csproj",
         "packagesPath": "C:\\Users\\Aidan Leyden\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\MvcMovie\\AidanBlog\\AidanBlog\\obj\\",
+        "outputPath": "C:\\Users\\Aidan Leyden\\Documents\\GitHub\\AidanBlog\\AidanBlog\\AidanBlog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aidan Leyden\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,13 +52,25 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
